@@ -1,0 +1,123 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: grey;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    text-align: left;
+    color: white;
+}
+
+.container {
+    display: flex;
+    min-height: calc(100vh-60px)
+}
+
+aside {
+    width: 250px; 
+    background-color: #f8f8f8; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(165, 160, 160);
+    display:block;
+    padding:10px 15px;
+    margin:5px 0;
+    border-radius:5px; 
+    text-align: center ;
+}
+
+nav a:hover {
+    background-color: grey; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    }
+
+h2#greeting{
+    text-align: center;
+    color:black;
+    margin-bottom: 60px;
+    margin-right: 200px;
+}
+ 
+
+button {
+    background-color: #e1ad01;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: fantasy;
+    font-size: 18px;
+    margin-right: 200px;
+}
+
+button:hover {
+    background-color: #89712b;
+
+}
+
+footer {
+    text-align: center;
+    padding: 100px;
+    position: fixed;
+    width: 200%;
+    bottom: 0;
+    background-color: #f8f8f8;
+    color: white;
+    display: flex;
+    justify-content: space-around; 
+    background-color: #f9f9f9; 
+    padding: 20px 0;
+}
+    
+.location {
+    width: 200px; 
+    text-align: center; 
+}
+    
+.location img {
+    max-width: 100%; 
+    border-radius: 10px; 
+}
+    
+.location p {
+    margin-top: 10px; 
+    font-size: 16px;
+}
+    
+.location a {
+    text-decoration: none; 
+    color: inherit; 
+}
+    
